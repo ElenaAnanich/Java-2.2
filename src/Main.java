@@ -3,7 +3,7 @@ public class Main {
         int balanse = 100;// начальный баланс
         int amount = 1200; // пополнение
         int condition = 1000; //условия пополнения
-        int bonus = amount/100 ;
+        int bonus = amount / 100;
 
         if (amount > condition) {
             bonus = amount / 100;
@@ -13,4 +13,5 @@ public class Main {
             System.out.println(bonus);
         }
 
-    }}
+    }
+}
